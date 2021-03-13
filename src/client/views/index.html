@@ -3,11 +3,6 @@
     <head>
         <meta charset="utf-8">
         <title>Test</title>
-        <link rel="stylesheet" href="/styles/resets.css">
-        <link rel="stylesheet" href="/styles/base.css">
-        <link rel="stylesheet" href="/styles/header.css">
-        <link rel="stylesheet" href="/styles/form.css">
-        <link rel="stylesheet" href="/styles/footer.css">
     </head>
 
     <body>
@@ -32,6 +27,11 @@
             <section>
                 <strong>Form Results:</strong>
                 <div id="results"></div>
+            </section>
+
+            <section>
+                <button type="button" onclick="return Client.apiCall(event)">Show Data</button>
+                <div id="api-results"></div>
             </section>
         </main>
 
